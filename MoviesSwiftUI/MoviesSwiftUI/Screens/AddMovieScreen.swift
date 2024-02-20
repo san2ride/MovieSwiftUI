@@ -23,6 +23,7 @@ struct AddMovieScreen: View {
             TextField("Title", text: $title)
             TextField("Year", value: $year, format: .number)
         }
+        .navigationTitle("Add Movie")
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 Button("Close") {
@@ -39,6 +40,7 @@ struct AddMovieScreen: View {
                     } catch {
                         print(error.localizedDescription)
                     }
+                    dismiss()
                 }.disabled(!isFormValid)
             }
         }
