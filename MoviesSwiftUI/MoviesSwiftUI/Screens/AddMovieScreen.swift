@@ -18,7 +18,6 @@ struct AddMovieScreen: View {
     private var isFormValid: Bool {
         !title.isEmptyOrWhiteSpace && year != nil
     }
-    
     var body: some View {
         Form {
             TextField("Title", text: $title)

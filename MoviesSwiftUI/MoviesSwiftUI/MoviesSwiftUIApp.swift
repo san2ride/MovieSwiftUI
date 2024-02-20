@@ -12,7 +12,8 @@ struct MoviesSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                AddMovieScreen()
+                //AddMovieScreen()
+                MovieListScreen()
             }
         }.modelContainer(for: [Movie.self])
     }

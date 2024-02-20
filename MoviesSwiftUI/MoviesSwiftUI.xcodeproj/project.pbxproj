@@ -10,6 +10,7 @@
 		F73C7E752B84363800589319 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C7E742B84363800589319 /* Movie.swift */; };
 		F73C7E7B2B84397000589319 /* AddMovieScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C7E7A2B84397000589319 /* AddMovieScreen.swift */; };
 		F73C7E7E2B843A8300589319 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73C7E7D2B843A8300589319 /* String+Extensions.swift */; };
+		F75032CE2B85283800B63B04 /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75032CD2B85283800B63B04 /* MovieListScreen.swift */; };
 		F762F4582B84119600D065CC /* MoviesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F762F4572B84119600D065CC /* MoviesSwiftUIApp.swift */; };
 		F762F45C2B84119900D065CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762F45B2B84119900D065CC /* Assets.xcassets */; };
 		F762F45F2B84119900D065CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F762F45E2B84119900D065CC /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		F73C7E742B84363800589319 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		F73C7E7A2B84397000589319 /* AddMovieScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieScreen.swift; sourceTree = "<group>"; };
 		F73C7E7D2B843A8300589319 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F75032CD2B85283800B63B04 /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 		F762F4542B84119600D065CC /* MoviesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F762F4572B84119600D065CC /* MoviesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSwiftUIApp.swift; sourceTree = "<group>"; };
 		F762F45B2B84119900D065CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				F73C7E7A2B84397000589319 /* AddMovieScreen.swift */,
+				F75032CD2B85283800B63B04 /* MovieListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75032CE2B85283800B63B04 /* MovieListScreen.swift in Sources */,
 				F73C7E7E2B843A8300589319 /* String+Extensions.swift in Sources */,
 				F73C7E7B2B84397000589319 /* AddMovieScreen.swift in Sources */,
 				F762F4582B84119600D065CC /* MoviesSwiftUIApp.swift in Sources */,
